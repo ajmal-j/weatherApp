@@ -38,12 +38,12 @@ function App() {
       });
   };
   const handleLocationButtonClick = (location) => {
-    handleOnSearchChange(location)
+    handleOnSearchChange(location);
   };
   return (
-    <div className="container">
+    <div className='container'>
       <Header />
-      <div className="searchContainer">
+      <div className='searchContainer'>
         <Search onSearchChange={handleOnSearchChange} />
         <Button onButtonClick={handleLocationButtonClick} />
       </div>

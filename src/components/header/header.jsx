@@ -16,19 +16,19 @@ export const Header = () => {
     hours -= 12;
   }
   if (hours < 9) {
-    hours='0'+' '+hours;
+    hours = "0" + " " + hours;
   }
-  
+
   const minutes = time.getMinutes();
   return (
-    <div className="headerContainer">
-      <span className="mainHeader">
-        Check Weather <span class="material-symbols-outlined">routine</span>
+    <div className='headerContainer'>
+      <span className='mainHeader'>
+        Check Weather <span className='material-symbols-outlined'>routine</span>
       </span>
-      <p className="timeDiv">
-        <span className="timeNow">Time Now </span>
-        <span className="hour">{hours}</span>
-        <span className="minutes">{minutes}</span>
+      <p className='timeDiv'>
+        <span className='timeNow'>Time Now </span>
+        <span className='hour'>{hours}</span>
+        <span className='minutes'>{minutes}</span>
       </p>
     </div>
   );

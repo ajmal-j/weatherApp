@@ -1,32 +1,31 @@
-.container{
+.container {
   margin: 30px auto;
-  padding: 30px;
+  padding: 30px 15px;
   max-width: 1080px;
 }
 
-
-body{
-  background:url('../public/stacked-waves-haikei.svg');
+body {
+  background: url("../public/stacked-waves-haikei.svg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   /* background-color: rgb(5, 5, 31); */
 }
 
-.searchContainer{
+.searchContainer {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
   justify-content: center;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 8px;
 }
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background: #000000;
 }
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background: #ffffff;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
