@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { AsyncPaginate } from "react-select-async-paginate";
-import { url, optionsOfApi } from "../../api";
+import { url, optionsOfApi } from "../../utils/api";
 import './search.css'
 
 const Search = ({ onSearchChange }) => {
