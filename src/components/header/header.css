@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500&display=swap');
+
+
+.mainHeader{
+    color: rgb(162, 162, 162);
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Urbanist', sans-serif;
+}
+.timeDiv{
+    color: beige;
+    font-size: larger;
+    font-family: 'Urbanist', sans-serif;
+    text-align: center;
+}
+
+.hour{
+    font-size: x-large;
+    font-weight: bolder
+}
+.hour::after{
+    content: ':';
+    padding: 5px;
+}
+.timeNow::after{
+    content: ':';
+    margin-right: 7px;
+    font-weight: bolder;
+    color: rgb(229, 229, 229);
+}
+.material-symbols-outlined{
+    font-size: 50px;
+    color: #fde2c1;
+    animation: rotate 6s linear infinite;
+}
+
+.timeNow{
+    color: #d0d0d0;
+}
+
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.headerContainer{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
